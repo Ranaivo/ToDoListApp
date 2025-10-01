@@ -1,6 +1,6 @@
 const form = document.querySelector('form');
 const input = document.querySelector('#taskInput');
-const ul = document.querySelector('#tasks');
+const ul = document.querySelector('#taskList');
 
 form.addEventListener('submit', function(event) {
     event.preventDefault();
